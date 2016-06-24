@@ -1,15 +1,15 @@
 h1 {
 	color:rgb(2, 132, 130);
+	text-align: center;
 }
 h2 {
 	color:#ffd700;
+	text-align: center;
 }
 .board {
 	display: inline-block;
-	height: 50%;
+	height: 80%;
 	width: 50%;
-	float: left;
-	margin: 8%;
 }
 .card {
 	height: 200px;
@@ -17,6 +17,8 @@ h2 {
 	background-color:rgb(255,255,0);
 	border: 1px solid black;
 	border-radius: 10px;
+	float: left;
+	margin: 8%;
 }
 .name {
 	color: #ff0000;
@@ -47,8 +49,5 @@ footer {
 	text-align: center;
 }
 p {
-	text-align: center;
-}
-header {
 	text-align: center;
 }
